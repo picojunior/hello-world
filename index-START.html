@@ -11,7 +11,7 @@
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
-      <span class="sound">clap</span>
+      <span class="sound">clap2</span>
     </div>
     <div data-key="83" class="key">
       <kbd>S</kbd>
@@ -66,25 +66,19 @@
  function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
-    if (!audio) return; //stops the function from running
- }
+    if (!audio) return; //stops the function from runninG
    
    audio.currentTime = 0; // rewind to the start
   audio.play();
   key.classList.add('playing');
- }
- // key.addClass('playing'); 
-  //jquery equivalent
-  function removeTransition(e) {
-if(e.propertyName !== 'transition') return; //  skip it if it is not a transform
- this.classList.remove('playing');
-  }
+
+ // key.addClass('playing');  THIS IS THE JQUERY EQUIV
   
-  const keys = document.querySelectorAll('.key');
-  keys.forEach(key => key.addEventListener('transitioned', removeTransition));
- window.addEventListener('keydown', playSound);
+   }
+   const keys = Array.from(document.querySelectorAll('.key'));
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('keydown', playSound);
 </script>
-
-
+ 
 </body>
 </html>

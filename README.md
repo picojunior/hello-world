@@ -1,6 +1,6 @@
 # hello-world 
 
-Lesson 1: https://picojunior.github.io/hello-world/index-START.html
-Lesson 2:
-Lesson 3:
-Lesson 4:
+Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Canvas, Transitions, etc</a>
+<br/>Lesson 2:
+<br/>Lesson 3:
+<br/>Lesson 4:

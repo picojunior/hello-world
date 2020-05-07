@@ -8,7 +8,7 @@
   <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
 
   <div class="controls">
-    <label for="spacing">Spacing:</label>
+    <label for="spacing">Spac-ing:</label>
     <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 
     <label for="blur">Blur:</label>
@@ -60,7 +60,8 @@ body {
     const inputs = document.querySelectorAll('.controls input');
     
     function handleUpdate() {
-      console.log(this.dataset);
+      const suffix = this.dataset.sizing || '';
+      console.log(suffix);
     }
     inputs.forEach(input => input.addEventListener('change', handleUpdate));
      inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));

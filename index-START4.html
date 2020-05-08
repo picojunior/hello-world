@@ -55,16 +55,18 @@ const fullNames = inventors.map(inventor => inventor.first + ' ' + inventor.last
 //const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1)} //turnerary function method
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live all together?
-var totalYears = 0;
+//var totalYears = 0;
     
-    for(var i = 0; i < inventors.length; i++) {
-      totalYear += inventors[i].year
-    }
+//    for(var i = 0; i < inventors.length; i++) {
+ //     totalYear += inventors[i].year
+//    }
+    
+  const totalYears = inventors.reduce((total, inventor) => {
+   return total + (inventor.passed - inventor.year);
+    }, 0);
     console.log(totalYears)
     
-    // OR const totalYears = inventors.reduce((total, inventor) => {
-    //return total + (inventor.passed - inventor.year);
-    //}, 0);
+    
     // 5. Sort the inventors by years lived
 const oldest = inventors.sort(function(a, b) {
   const oldest = a.passed - a.year;

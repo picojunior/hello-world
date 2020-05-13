@@ -7,3 +7,14 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Da
 <br/>Lesson 5: <a href="https://picojunior.github.io/hello-world/index-START5.html">Flex panels</a>
 <br/>Lesson 6: <a href="https://picojunior.github.io/hello-world/index-START6.html">Ajax Type Ahead</a>
 <br/>Lesson 7: <a href="https://picojunior.github.io/hello-world/index-START7.html">Arrays pt. 2</a>
+<br/>Lesson 8: <a href="https://picojunior.github.io/hello-world/index-START8.html">HTML Canvas, mouse commands, increments</a>
+<br/>Lesson 9:
+<br/>Lesson 10:
+<br/>Lesson 11:
+
+<br/>Lesson 12:
+<br/>Lesson 13:
+<br/>Lesson 14:
+<br/>Lesson 15:
+<br/>Lesson 16:
+<br/>Lesson 17:

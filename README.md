@@ -9,7 +9,7 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Da
 <br/>Lesson 7: <a href="https://picojunior.github.io/hello-world/index-START7.html">Arrays pt. 2</a>
 <br/>Lesson 8: <a href="https://picojunior.github.io/hello-world/index-START8.html">HTML Canvas, mouse commands, increments</a>
 <br/>Lesson 9:
-<br/>Lesson 10:
+<br/>Lesson 10: <a href="https://picojunior.github.io/hello-world/index-START10.html">Checkboxes</a>
 <br/>Lesson 11:
 
 <br/>Lesson 12:

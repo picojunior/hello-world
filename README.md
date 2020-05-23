@@ -10,7 +10,7 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Da
 <br/>Lesson 8: <a href="https://picojunior.github.io/hello-world/index-START8.html">HTML Canvas, mouse commands, increments</a>
 <br/>Lesson 9:
 <br/>Lesson 10: <a href="https://picojunior.github.io/hello-world/index-START10.html">Checkboxes</a>
-<br/>Lesson 11:
+<br/>Lesson 11: <a href="https://picojunior.github.io/hello-world/11index.html">Video Controls</a>
 
 <br/>Lesson 12:
 <br/>Lesson 13:

@@ -13,7 +13,7 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Da
 <br/>Lesson 11: <a href="https://picojunior.github.io/hello-world/11index.html">Video Controls</a>
 
 <br/>Lesson 12:<a href="https://picojunior.github.io/hello-world/index-START12.html">Log key strokes into an array</a>
-<br/>Lesson 13:
+<br/>Lesson 13: <a href="https://picojunior.github.io/hello-world/index-START13.html">Slide Images</a>
 <br/>Lesson 14:
 <br/>Lesson 15:
 <br/>Lesson 16:

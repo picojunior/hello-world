@@ -12,9 +12,9 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Da
 <br/>Lesson 10: <a href="https://picojunior.github.io/hello-world/index-START10.html">Checkboxes</a>
 <br/>Lesson 11: <a href="https://picojunior.github.io/hello-world/11index.html">Video Controls</a>
 
-<br/>Lesson 12:<a href="https://picojunior.github.io/hello-world/index-START12.html">Log key strokes into an array</a>
+<br/>Lesson 12: <a href="https://picojunior.github.io/hello-world/index-START12.html">Log key strokes into an array</a>
 <br/>Lesson 13: <a href="https://picojunior.github.io/hello-world/index-START13.html">Slide Images</a>
-<br/>Lesson 14:
+<br/>Lesson 14:  <a href="https://picojunior.github.io/hello-world/index-START14.html">Object and arrays: reference vs copy</a>
 <br/>Lesson 15:
 <br/>Lesson 16:
 <br/>Lesson 17:

@@ -5,7 +5,7 @@
   <title>JS Reference VS Copy1</title>
 </head>
 <body>
-test 4
+test 5
   <script>
     // start with strings, numbers and booleans
 var age = 101;
@@ -15,7 +15,10 @@ var age = 101;
    console.log(age, age2);
     // Let's say we have an array
     const players = ['Igor', 'Tad Cooper', 'Meowlanie', 'Meemaw'];
-
+console.log(players);
+    let team = players;
+    console.log(team);
+    console.log(players,team);
     // and we want to make a copy of it.
 
     // You might think we can just do something like this:

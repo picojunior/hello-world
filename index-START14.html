@@ -5,7 +5,7 @@
   <title>JS Reference VS Copy1</title>
 </head>
 <body>
-test 6
+test 7
   <script>
     // start with strings, numbers and booleans
 var age = 101;
@@ -54,6 +54,8 @@ team[3] = 'Elmer';
     // how do we take a copy instead?
 
     // We will hopefully soon see the object ...spread
+    const team4 = [...players];
+    console.log(team4);
 
     // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
 

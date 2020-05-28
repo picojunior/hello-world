@@ -17,4 +17,17 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Da
 <br/>Lesson 14:  <a href="https://picojunior.github.io/hello-world/index-START14.html">Object and arrays: reference vs copy</a>
 <br/>Lesson 15: <a href="https://picojunior.github.io/hello-world/index-START15.html">Local storage</a>
 <br/>Lesson 16: <a href="https://picojunior.github.io/hello-world/index-START16.html">Mouse-over shadows</a>
-<br/>Lesson 17:
+<br/>Lesson 17: <a href="https://picojunior.github.io/hello-world/index-START17.html">Sort without articles</a>
+<br/>Lesson 18:
+<br/>Lesson 19:
+<br/>Lesson 20:
+<br/>Lesson 21:
+<br/>Lesson 22:
+<br/>Lesson 23:
+<br/>Lesson 24:
+<br/>Lesson 25:
+<br/>Lesson 26:
+<br/>Lesson 27:
+<br/>Lesson 28:
+<br/>Lesson 29:
+<br/>Lesson 30:

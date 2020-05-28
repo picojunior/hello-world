@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>A Sort Without Articles</title>
+  <title>Sort Without Articles</title>
 </head>
 <body>
 
@@ -57,7 +57,7 @@ const sortedBands = bands.sort(function (a, b){
     return -1;
   }
    //const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
-  document.querySelectro('#bands').innerHTL = 
+  document.querySelector('#bands').innerHTL = 
     sortedBands
   .map(band => `<li>${band}</li>`) 
   .join('')

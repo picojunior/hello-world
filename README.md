@@ -19,7 +19,7 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Da
 <br/>Lesson 16: <a href="https://picojunior.github.io/hello-world/index-START16.html">Mouse-over shadows</a>
 <br/>Lesson 17: <a href="https://picojunior.github.io/hello-world/index-START17.html">Sort without articles</a>
 <br/>Lesson 18: <a href="https://picojunior.github.io/hello-world/index-FINISHED18.html">adding times in an html list</a>
-<br/>Lesson 19:
+<br/>Lesson 19: <a href="https://picojunior.github.io/hello-world/index-19.html">webcam stuff</a>
 <br/>Lesson 20:
 <br/>Lesson 21:
 <br/>Lesson 22:

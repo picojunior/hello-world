@@ -22,7 +22,7 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Da
 <br/>Lesson 19: <a href="https://picojunior.github.io/hello-world/index19.html">webcam stuff</a>
 <br/>Lesson 20:
 <br/>Lesson 21:
-<br/>Lesson 22:
+<br/>Lesson 22: <a href="https://picojunior.github.io/hello-world/index22.html">highlight menu</a>
 <br/>Lesson 23:
 <br/>Lesson 24:
 <br/>Lesson 25:

@@ -22,7 +22,7 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-FINISHED.html"
 <br/>Lesson 19: <a href="https://picojunior.github.io/hello-world/index19.html">webcam stuff</a>
 <br/>Lesson 20: Speech Recognition  --requires installation of a local server
 <br/>Lesson 21: Geolocation --requires iOS simulator
-<br/>Lesson 22: <a href="https://picojunior.github.io/hello-world/index-START22.html">highlight menu</a>
+<br/>Lesson 22: <a href="https://picojunior.github.io/hello-world/index-FINISHED22.html">highlight menu</a>
 <br/>Lesson 23:
 <br/>Lesson 24:
 <br/>Lesson 25:

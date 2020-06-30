@@ -20,8 +20,8 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-START.html">Da
 <br/>Lesson 17: <a href="https://picojunior.github.io/hello-world/index-START17.html">Sort without articles</a>
 <br/>Lesson 18: <a href="https://picojunior.github.io/hello-world/index-FINISHED18.html">adding times in an html list</a>
 <br/>Lesson 19: <a href="https://picojunior.github.io/hello-world/index19.html">webcam stuff</a>
-<br/>Lesson 20:
-<br/>Lesson 21:
+<br/>Lesson 20: Speech Recognition  --requires installation of a local server
+<br/>Lesson 21: Geolocation --requires iOS simulator
 <br/>Lesson 22: <a href="https://picojunior.github.io/hello-world/index-START22.html">highlight menu</a>
 <br/>Lesson 23:
 <br/>Lesson 24:

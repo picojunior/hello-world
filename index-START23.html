@@ -47,7 +47,7 @@
   }
   
   function setVoice() {
-  msg.voice = voices.find(voice => voice.name === this.value);
+  msg.voice = voices.find(voice => voice.name === this.value); //loop over all voices in array and find the match
   toggle();
   }
   //toggle and a flag for startOver

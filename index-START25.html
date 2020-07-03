@@ -44,6 +44,7 @@ open console log to see click actions
 <script>
 const divs = document.querySelectorAll('div');
   const button = document.querySelectorAll('button');
+  
   function logText(e) {
     console.log(this.classList.value);
     //e.stopPropagation(); // stop bubbling!
@@ -57,7 +58,9 @@ const divs = document.querySelectorAll('div');
 
   button.addEventListener('click', () => {
   console.log('Click!');
-  }{once: true});
+  }, {
+    once: true
+  });
   </script>
 </body>
 </html>

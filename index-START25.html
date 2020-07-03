@@ -42,7 +42,23 @@
 
 <button></button>
 <script>
+const divs = document.querySelectorAll('div');
+  const button = document.querySelectorAll('button');
+  function logText(e) {
+    console.log(this.classList.value);
+    //e.stopPropagation(); // stop bubbling!
+    
+  }
+  
+  divs.forEach(div => div.addEventListener('click', logText, {
+  capture: false,
+  once: true
+  }));  //capture is we will grab the elements on the way down -body, div1, div2, div3, etc  Once makes it (the click) run once (unless you relaod the page). Used in store checkouts so someone cannot checkout twice
 
-</script>
+  button.addEventListener('click', () => {
+  console.log('Click!');
+  }{once: true});
+  </script>
 </body>
 </html>
+

@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Click and Drag</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style27.css">
 </head>
 <body>
   <div class="items">
@@ -35,6 +36,36 @@
   </div>
 
 <script>
+  const slider = document.querySelector('.items'); //items is the white div that surrounds everything
+  let isDown = false; 
+  let startX; //assigning of values will occur in the events. On mousedown need to know starting location
+  let scrollLeft;
+
+  slider.addEventListener('mousedown', (e) => {  //(e) is event
+    isDown = true;
+    slider.classList.add('active');
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft; //this variable is referenced in bottom equation - walk
+  });
+
+  slider.addEventListener('mouseleave', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+
+  slider.addEventListener('mouseup', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+
+  slider.addEventListener('mousemove', (e) => {
+    if (!isDown) return;  // stop the fn from running
+    e.preventDefault(); //stop selecting of text or weird things the browser might try to do
+    const x = e.pageX - slider.offsetLeft;
+    const walk = (x - startX) * 3; //multiplier makes the scrolling greater than the drag pixels
+    slider.scrollLeft = scrollLeft - walk;
+  });
+
 </script>
 
   </body>

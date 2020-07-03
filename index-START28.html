@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Video Speed Scrubeer</title>
-  <link rel="stylesheet" href="style28.css">
+  <title>Video Speed Scrubber</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -29,7 +28,7 @@
       const height = Math.round(percent * 100) + '%';
       const playbackRate = percent * (max - min) + min;
       bar.style.height = height;
-      bar.textContent = playbackRate.toFixed(2) + '×'; // 2 decimal places
+      bar.textContent = playbackRate.toFixed(2) + '×';
       video.playbackRate = playbackRate;
     }
 

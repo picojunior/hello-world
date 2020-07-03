@@ -26,7 +26,7 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-FINISHED.html"
 <br/>Lesson 24: <a href="https://picojunior.github.io/hello-world/index-START24.html">Sticky Nav--scroll lock menu</a>
 <br/>Lesson 25: <a href="https://picojunior.github.io/hello-world/index-START25.html">Propagation, bubbling and click once</a>
 <br/>Lesson 26:  <a href="https://picojunior.github.io/hello-world/index-START26.html">Dynamic Navigation Menu</a>
-<br/>Lesson 27: <a href="https://picojunior.github.io/hello-world/index-START26.html">Click and Drag to Scroll</a>
+<br/>Lesson 27: <a href="https://picojunior.github.io/hello-world/index-START27.html">Click and Drag to Scroll</a>
 <br/>Lesson 28:
 <br/>Lesson 29:
 <br/>Lesson 30:

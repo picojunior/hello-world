@@ -28,5 +28,5 @@ Lesson 1: <a href="https://picojunior.github.io/hello-world/index-FINISHED.html"
 <br/>Lesson 26:  <a href="https://picojunior.github.io/hello-world/index-START26.html">Dynamic Navigation Menu</a>
 <br/>Lesson 27: <a href="https://picojunior.github.io/hello-world/index-START27.html">Click and Drag to Scroll</a>
 <br/>Lesson 28: <a href="https://picojunior.github.io/hello-world/index-START28.html">Video Speed Controller</a>
-<br/>Lesson 29:
+<br/>Lesson 29: <a href="https://picojunior.github.io/hello-world/index29.html">Countdown clock</a>
 <br/>Lesson 30:

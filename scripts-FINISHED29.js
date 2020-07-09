@@ -26,7 +26,9 @@ function timer(seconds) {
 
 function displayTimeLeft(seconds) {
   const minutes = Math.floor(seconds / 60);
+  // % is mod. Mod will give us the remainder
   const remainderSeconds = seconds % 60;
+  //if less than 10 seconds remain add a zero in front of the number else add ''nothing in front
   const display = `${minutes}:${remainderSeconds < 10 ? '0' : '' }${remainderSeconds}`;
   document.title = display;
   timerDisplay.textContent = display;
@@ -35,6 +37,7 @@ function displayTimeLeft(seconds) {
 function displayEndTime(timestamp) {
   const end = new Date(timestamp);
   const hour = end.getHours();
+  //convert 24 hr cock to 12 hour
   const adjustedHour = hour > 12 ? hour - 12 : hour;
   const minutes = end.getMinutes();
   endTime.textContent = `Be Back At ${adjustedHour}:${minutes < 10 ? '0' : ''}${minutes}`;
@@ -46,6 +49,7 @@ function startTimer() {
 }
 
 buttons.forEach(button => button.addEventListener('click', startTimer));
+//the custom time entry field
 document.customForm.addEventListener('submit', function(e) {
   e.preventDefault();
   const mins = this.minutes.value;
